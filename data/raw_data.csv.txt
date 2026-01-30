@@ -1,0 +1,5 @@
+
+id,age,substance_use,stress_level
+1,25,yes,high
+2,30,no,low
+3,28,yes,medium
