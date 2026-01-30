@@ -1,5 +1,21 @@
 import csv
 
+#raw data to clean gor age
+
+clean_data = []
+
+with open '../data/raw_data.csv', newline='') as file
+reader = csv.dictReader(file)
+	for row in reader:
+		row['age'] = int(row['age'])
+		clean_data.append(row)
+
+print("Clean Data:")
+for item in clean_data:
+	print(item)
+
+# feature/analysis-results for stress level
+
 with open('../data/raw_data.csv', newline='') as file
 reder = csv.DectReader(file)
 for row in reader:
@@ -7,3 +23,8 @@ for row in reader:
 
 stress_levels = [row['stress_level'] for row in clean_data]
 print("stess levels:", stress_level)
+
+
+
+
+
