@@ -1,7 +1,14 @@
 #Research Report
 
-## Background
-This study explores the psychological impact of substance use among commercial bike riders.
+## Introduction Report
+Substance use has psychological implications that may affect commercial bike riders.
 
 ## Methodology
-Cross-sectional survey using structured questionnaires.
+A cross-sectional survey design was used.
+
+## Results
+Paricipants reporting substance use showed higher stress levels.
+
+## Conclusion
+Substance abuse amy contribute to  increased psychological stress among tiders.
+
