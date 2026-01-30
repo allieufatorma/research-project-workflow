@@ -4,3 +4,6 @@ with open('../data/raw_data.csv', newline='') as file
 reder = csv.DectReader(file)
 for row in reader:
 	print(row)
+
+stress_levels = [row['stress_level'] for row in clean_data]
+print("stess levels:", stress_level)
